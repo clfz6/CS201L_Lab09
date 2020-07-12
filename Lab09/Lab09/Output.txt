@@ -1,0 +1,62 @@
+Beginning processing with regular Bag.
+Adding 15.	Add successful.
+Adding 22.	Add successful.
+Adding 3.	Add successful.
+Adding 47.	Add successful.
+Removing item, got 47
+Adding 12.	Add successful.
+Adding 12.	Add successful.
+Deleting 15.	Delete successful.
+Adding 6.	Add successful.
+Adding 98.	Add successful.
+Deleting all instances of 12.	Delete successful.
+Removing item, got 98
+Removing item, got 6
+Removing item, got 3
+Adding 15.	Add successful.
+Adding 22.	Add successful.
+Adding 3.	Add successful.
+Removing item, got 3
+Adding 5.	Add successful.
+Deleting 102.	Delete NOT successful.
+Deleting all instances of 152.	Delete NOT successful.
+Adding 6.	Add successful.
+Removing item, got 6
+Removing item, got 5
+Removing item, got 22
+Removing item, got 15
+Removing item, got 22
+
+At end of processing, the bag still has 0 items.
+
+
+Repeating the process, with an Ordered Bag.
+Adding 15.	Add successful.
+Adding 22.	Add successful.
+Adding 3.	Add successful.
+Adding 47.	Add successful.
+Removing item, got 3
+Adding 12.	Add successful.
+Adding 12.	Add successful.
+Deleting 15.	Delete successful.
+Adding 6.	Add successful.
+Adding 98.	Add successful.
+Deleting all instances of 12.	Delete successful.
+Removing item, got 6
+Removing item, got 22
+Removing item, got 47
+Adding 15.	Add successful.
+Adding 22.	Add successful.
+Adding 3.	Add successful.
+Removing item, got 3
+Adding 5.	Add successful.
+Deleting 102.	Delete NOT successful.
+Deleting all instances of 152.	Delete NOT successful.
+Adding 6.	Add successful.
+Removing item, got 5
+Removing item, got 6
+Removing item, got 15
+Removing item, got 22
+Removing item, got 98
+
+At end of processing, the bag still has 0 items.

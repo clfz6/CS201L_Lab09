@@ -1,0 +1,5 @@
+﻿  Bag.cpp
+  Source.cpp
+  Generating Code...
+C:\c++\CS201L\CS201L_Lab09\Lab09\Lab09\Bag.cpp(56): warning C4715: 'Bag::delete_item': not all control paths return a value
+  Lab09.vcxproj -> C:\c++\CS201L\CS201L_Lab09\Lab09\Debug\Lab09.exe
