@@ -9,6 +9,7 @@ Bag::Bag()
 	}
 }
 
+//adds an item to the vector and returns true if it successfully did so
 bool Bag::add_item(int item)
 {
 	int expectedSize;
@@ -24,6 +25,7 @@ bool Bag::add_item(int item)
 	}
 }
 
+//returns the last item in the vector and erases it
 int Bag::remove_item()
 {
 	int removedItem;
@@ -32,6 +34,7 @@ int Bag::remove_item()
 	return removedItem;
 }
 
+//searches for one instance of a given integer in the vector, moves it to the back of the vector and pops it
 bool Bag::delete_item(const int& item)
 {
 	int expectedSize;
@@ -55,6 +58,7 @@ bool Bag::delete_item(const int& item)
 	}
 }
 
+//searches for all instances of a given integer in the vector, moves it to the back of the vector and pops it
 bool Bag::delete_all(const int& item)
 {
 	int lastSize;
@@ -76,12 +80,14 @@ bool Bag::delete_all(const int& item)
 	}
 }
 
+//returns the current size of the vector
 int Bag::size()
 {
 	int size = items.size();
 	return size;
 }
 
+//removes all elements in the vector
 void Bag::clear()
 {
 	while (items.size() != 0)
@@ -91,6 +97,7 @@ void Bag::clear()
 }
 
 
+//searches fot the smallest integer in the vector, moves it to the back, and pops it
 int OrderedBag::remove_item()
 {
 	int removedItem, indexSmallest = 0;
